@@ -1,6 +1,0 @@
-_build/
-installer/
-*.pkg
-*.zip
-.DS_Store
-.claude/
