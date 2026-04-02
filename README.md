@@ -59,4 +59,4 @@ Based on [BlackHole](https://github.com/ExistentialAudio/BlackHole) by [Existent
 ## Links
 
 - [MDE — Mix Desk EQ](https://adelvo.io/mix-desk-eq/) — Professional audio routing & mixer for macOS
-- [Adelvo](https://adelvo.io) — Professional tools for live production and media workflows
+- [Adelvo Software](https://adelvo.io) — Professional tools for live production and media workflows
