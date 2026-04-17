@@ -37,7 +37,7 @@ TOTAL_INSTANCES=${#INSTANCES[@]}
 DEFAULT_SELECTED=2
 
 # Installer metadata
-PKG_IDENTIFIER_BASE="com.adelvo.mixdeskeq.bus"
+PKG_IDENTIFIER_BASE="io.adelvo.mixdeskeq.bus"
 PKG_VERSION="1.0.0"
 PKG_TITLE="MixDeskEQ for macOS"
 INSTALLER_FILENAME="MixDeskEQ-AudioDrivers-${PKG_VERSION}"
@@ -314,7 +314,7 @@ done
 
 cat >> "${UNINST_SCRIPTS}/postinstall" << 'UNEOF2'
 killall -9 coreaudiod 2>/dev/null || true
-for id in $(pkgutil --pkgs | grep com.adelvo.mixdeskeq.bus); do
+for id in $(pkgutil --pkgs | grep io.adelvo.mixdeskeq.bus); do
     pkgutil --forget "$id" 2>/dev/null || true
 done
 exit 0
