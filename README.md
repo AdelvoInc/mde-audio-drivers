@@ -2,6 +2,8 @@
 
 Free macOS installer that creates up to **8 independent virtual stereo audio devices** based on [BlackHole](https://github.com/ExistentialAudio/BlackHole). Built for [MDE — Mix Desk EQ](https://adelvo.io/mix-desk-eq/), but works with any audio application.
 
+![MDE Audio Driver Installer](docs/installer.jpg)
+
 ## What it does
 
 Each virtual device acts as a stereo audio cable: audio sent to the **output** appears at the **input** of the same device. This is what makes advanced audio routing possible — Mix Desk EQ (or any app) sends a submix to a virtual output, and your target app picks it up as a regular input.
