@@ -39,7 +39,7 @@ DEFAULT_SELECTED=2
 # Installer metadata
 PKG_IDENTIFIER_BASE="io.adelvo.mixdeskeq.bus"
 PKG_VERSION="1.0.0"
-PKG_TITLE="MixDeskEQ for macOS"
+PKG_TITLE="MixDeskEQ Audio Driver for macOS"
 INSTALLER_FILENAME="MixDeskEQ-AudioDrivers-${PKG_VERSION}"
 
 # ── Colors ────────────────────────────────────────────────
